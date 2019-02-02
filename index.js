@@ -1,5 +1,4 @@
 // Write your code in this file!
-//scuberGreetingForFeet() gives customers a free sample if the ride is less than or equal to 400 feet, charges 30 dollars for a distance over 2000 feet, does not allow rides over 2500 feet
 
 //ternaryCheckCity() returns "Ok, sounds good." when the city is NYC, should return "No go." if the destination city is not NYC, 
 
@@ -15,4 +14,7 @@ function scuberGreetingForFeet (feet) {
   }
 }
 
+function ternaryCheckCity(city) {
+  if (city)
+}
 
