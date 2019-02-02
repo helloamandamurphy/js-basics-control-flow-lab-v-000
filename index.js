@@ -1,7 +1,5 @@
 // Write your code in this file!
 
-//ternaryCheckCity() returns "Ok, sounds good." when the city is NYC, should return "No go." if the destination city is not NYC, 
-
 //switchOnCharmFromTip() should return "Thank you so much." if the tip is generous, should return "Thank you." if the tip is not as generous, should return "Bye." if anything else.
 
 function scuberGreetingForFeet (feet) {
@@ -18,3 +16,12 @@ function ternaryCheckCity(city) {
   return city === "NYC" ? "Ok, sounds good." : "No go.";
 }
 
+function switchOnCharmFromTip(type)
+  if (type === "generous") {
+    return "Thank you so much.";
+  } else if (type === "not as generous") {
+    return "Thank you.";
+  } else {
+    return "Bye.";
+  }
+}
